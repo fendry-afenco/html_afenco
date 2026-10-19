@@ -1,30 +1,15 @@
-# Afen website v1.1
+# Code change log (latest change only)
 
-Upload the CONTENTS of this folder (not the folder itself) to the root of your static host
-(Cloudflare Pages, GitHub Pages, etc.). Open index.html in a browser to preview locally.
+Only the most recent change is kept here. Each new code change replaces this entry.
 
-## Before you publish (2 settings)
-Edit main.js, near the top:
-- formEndpoint: URL from a form service (e.g. Formspree). Until set, the form tells visitors to call.
-- bookingUrl: a scheduling link (Cal.com, Calendly). Until set, "Book a call" jumps to the contact form.
+## 1. When
+2026-10-18, 6:03 PM PT (Sunday)
 
-## Please confirm (written by Claude, not from your site)
-- About: "7.5 years at Okta ... grew [the demo library] from about 30 to a peak of 680 monthly users" (from your notes).
-- Hourly-rate note under the price list ("Hourly rates differ by practice area"). Rates work out to
-  $200, $200, $300, $400 per hour. Edit or align the prices if you prefer.
-- privacy.html and terms.html are general templates, not legal advice. They say the site sets no
-  cookies and uses no tracking scripts. Update them if you add analytics, a scheduling tool or payments.
-- Domain: canonical, sitemap and share-image links assume https://afen-co.com/.
+## 2. What changed
+Widened the page container (class `wrap`) from a 1120px to a 1350px maximum width.
+The container still shrinks to fit narrower screens, so phones and small laptops look the same.
+Applies to every page that uses the shared stylesheet: home, privacy, terms and 404.
 
-## Optional
-- Private analytics: in index.html, fill in the commented Cloudflare Web Analytics snippet at the bottom.
-
-## What changed from v1.0
-Shorter headline; OODA/CTEM caption; name and proof point in About; "How to work with me" 3-step line;
-hourly equivalents and rate note; Enquire buttons that pre-fill the message; 44 px tap targets;
-font built into styles.css (no Google Fonts); privacy.html, terms.html, 404.html; share image, PNG
-favicons, robots.txt, sitemap.xml; richer structured data (founder, logo, area served, services).
-
-## Files
-index.html, privacy.html, terms.html, 404.html, styles.css, main.js, favicon.svg, favicon-32.png,
-apple-touch-icon.png, icon-192.png, icon-512.png, robots.txt, sitemap.xml, assets/img/*
+## 3. Which files and folders
+- `html_afenco/v1.1/styles.css`: the `--wrap` value at the top of the file changed from `1120px` to `1350px`.
+- No other files were changed. `html_afenco/v1.0/` was not touched.
