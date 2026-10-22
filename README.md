@@ -3,15 +3,14 @@
 Only the most recent change is kept here. Each new code change replaces this entry.
 
 ## 1. When
-2026-10-19, 9:01 PM PT (Monday)
+2026-10-19, 10:37 PM PT (Monday)
 
 ## 2. What changed
-Removed the phone number link (+1.415.483.5242) from the hero section on the home page, leaving "Book an intro call" as the single hero action.
-The phone number is still shown in the Contact section, on the Privacy and Terms pages, and in the page's search-engine data.
-Also removed the two style rules that only styled that link.
+Made the content area of every section 1350px wide on large screens (header bar, hero, About, Practice areas, Demo Strategy Review, How to work with me, Contact, footer, and the Privacy, Terms and 404 pages).
+Before, 1350px was the width including the side margins, so the content itself was only 1254px wide. Now the content is 1350px and the side margins sit outside it.
+Screens narrower than about 1446px still shrink to fit (for example, the content is 1344px wide on a 1440px screen), and phones are unchanged.
 
 ## 3. Which files and folders
-- `html_afenco/v1.1/index.html`: removed the phone link from the hero buttons row.
-- `html_afenco/v1.1/styles.css`: removed the `.hero-cta .tel` and `.hero-cta .tel:hover` rules.
+- `html_afenco/v1.1/assets/script/styles.css`: the `.wrap` rule's `max-width` changed from `var(--wrap)` to `calc(var(--wrap) + var(--gut) * 2)`. The `--wrap` value stays at 1350px.
 - `html_afenco/v1.1/README.md`: this change log.
 - No other files were changed. `html_afenco/v1.0/` was not touched.
