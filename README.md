@@ -3,14 +3,14 @@
 Only the most recent change is kept here. Each new code change replaces this entry.
 
 ## 1. When
-2026-10-19, 10:37 PM PT (Monday)
+2026-10-21, 6:22 PM PT (Wednesday)
 
 ## 2. What changed
-Made the content area of every section 1350px wide on large screens (header bar, hero, About, Practice areas, Demo Strategy Review, How to work with me, Contact, footer, and the Privacy, Terms and 404 pages).
-Before, 1350px was the width including the side margins, so the content itself was only 1254px wide. Now the content is 1350px and the side margins sit outside it.
-Screens narrower than about 1446px still shrink to fit (for example, the content is 1344px wide on a 1440px screen), and phones are unchanged.
+Switched the hero image on the home page back to the SVG version of the new "Afen across OODA & CTEM lifecycle" graphic (it had been switched to the PNG version).
+The SVG has the same proportions as the PNG, so the layout, frame and shadow are unchanged.
+Two other hero image files are not used by any page and were left in place, not deleted: `hero-ooda-ctem.png` and `hero-ooda-ctem.webp`.
 
 ## 3. Which files and folders
-- `html_afenco/v1.1/assets/script/styles.css`: the `.wrap` rule's `max-width` changed from `var(--wrap)` to `calc(var(--wrap) + var(--gut) * 2)`. The `--wrap` value stays at 1350px.
+- `html_afenco/v1.1/index.html`: the hero image now points to `assets/img/hero-ooda-ctem.svg` (width 2400, height 1254).
 - `html_afenco/v1.1/README.md`: this change log.
 - No other files were changed. `html_afenco/v1.0/` was not touched.
