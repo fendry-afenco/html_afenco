@@ -24,7 +24,7 @@ form.addEventListener("submit", async (e) => {
   const email = form.email.value.trim();
   if (!email || !form.email.checkValidity()) { say("Enter a valid email address so I can reply.", "err"); form.email.focus(); return; }
   if (form._gotcha.value) return;
-  if (!CONFIG.formEndpoint) { say("The form isn’t connected yet. Please call " + PHONE + ".", "err"); return; }
+  if (!CONFIG.formEndpoint) { say("The form isn’t connected yet. Please email me at fendry@afen-co.com", "err"); return; }
   const btn = form.querySelector("button[type=submit]");
   btn.disabled = true; say("Sending…");
   try {
