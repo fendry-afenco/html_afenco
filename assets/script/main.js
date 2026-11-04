@@ -1,7 +1,7 @@
 /* Two settings to fill in before you publish (see README.md):
    formEndpoint: the URL your form service gives you, e.g. "https://formspree.io/f/xxxxxxxx"
    bookingUrl:   a scheduling link (Cal.com, Calendly, etc.). Leave "" to send visitors to the contact form. */
-const CONFIG = { formEndpoint: "", bookingUrl: "https://calendly.com/fendry-afen-co/30min" };
+const CONFIG = { formEndpoint: "https://formspree.io/f/mqppnyye", bookingUrl: "https://calendly.com/fendry-afen-co/30min" };
 const PHONE = "+1 415 483 5242";
 
 if (CONFIG.bookingUrl) {
