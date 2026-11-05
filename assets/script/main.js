@@ -33,7 +33,15 @@ form.addEventListener("submit", async (e) => {
   try {
     const res = await fetch(CONFIG.formEndpoint, { method: "POST", body: new FormData(form), headers: { Accept: "application/json" } });
     if (!res.ok) throw new Error(res.status);
+    /* Pass what the visitor entered to the thank-you page via sessionStorage (not the page address). */
+    try {
+      sessionStorage.setItem("afenSent", JSON.stringify({
+        name: form.elements["name"].value.trim(), title: form.elements["title"].value.trim(),
+        company: form.company.value.trim(), email: form.email.value.trim()
+      }));
+    } catch (e) { /* storage blocked: the thank-you page still works without the details */ }
     form.reset(); say("Message sent. I’ll reply within one business day.", "ok");
+    window.location.href = "thank-you.html";
   } catch (err) {
     say("The message didn’t send. Please try again, email info@afen-co.com, or call " + PHONE + ".", "err");
   } finally { btn.disabled = false; }

@@ -234,9 +234,14 @@ footer{background:#000;color:rgba(255,255,255,.82);padding-block:44px}
 .req-key{margin:0;font-size:.9rem;color:var(--muted)}
 
 /* Link to colleague recommendations on LinkedIn */
-.recs-link{margin-top:18px;font-weight:500}
-.recs-link a{text-underline-offset:4px}
+.recs-link{margin-top:8px;font-weight:500}
+.recs-link a{text-underline-offset:4px;display:inline-block;padding-block:10px}
 .recs-link span{display:block;margin-top:4px;font-weight:400;font-size:.9rem;color:var(--muted)}
 
 /* Hero audience line */
 .hero-for{margin-top:14px;font-size:1.05rem;color:var(--muted);max-width:44ch}
+
+/* Thank-you page: long emails and names wrap instead of overflowing */
+.sent-list dd{margin:0;overflow-wrap:anywhere}
+#sent .note{margin-top:18px}
+#sent .note a{white-space:nowrap}
