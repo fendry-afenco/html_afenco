@@ -3,14 +3,17 @@
 Only the most recent change is kept here. Each new code change replaces this entry.
 
 ## 1. When
-2026-11-04, 10:50 PM PT (Wednesday)
+2026-11-04, 11:20 PM PT (Wednesday)
 
 ## 2. What changed
-In the "A track record you can check." section, the Okta bullet now shows "from about 30 to a peak of 680 monthly unique users (22×)" in bold, matching the bold phrase in the Cisco entry. The rest of the sentence is unchanged.
-Only this one place was changed. The same figure in the proof bar and the About paragraph was left as it was.
+Fixed the handwriting notes so the "…" at the start or end of a quote can no longer be left alone on its own line. On the live site, the Okta note ("… Oktaprise was a force multiplier for the global presales organization …") wrapped so the closing "…”" sat by itself on a third line.
+Two fixes: the opening "“…" and the closing "…”" are now tied to their neighbouring word with a non-breaking space (in all six notes), and the notes' text now wraps in balanced lines, so the lines come out an even length. As a result the notes look slightly narrower than before.
+The quote wording, attributions and font are unchanged.
+Checked in a desktop-width render through a temporary local server. Phone width not re-checked.
 Nothing was changed on GitHub; the live site updates only when you publish these local files.
 
 ## 3. Which files and folders
-- `html_afenco/v1.3/index.html`: the Okta bullet in the Credentials timeline.
+- `html_afenco/v1.3/index.html`: non-breaking spaces next to the ellipses in the six notes.
+- `html_afenco/v1.3/assets/script/styles.css`: balanced line wrapping on the notes.
 - `html_afenco/v1.3/README.md`: this change log.
 - No other files were changed. `html_afenco/v1.0/`, `html_afenco/v1.1/` and `html_afenco/v1.2/` were not touched.

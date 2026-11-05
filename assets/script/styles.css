@@ -219,7 +219,7 @@ footer{background:#000;color:rgba(255,255,255,.82);padding-block:44px}
 @font-face{font-family:"Caveat";font-style:normal;font-weight:700;font-display:swap;src:url(../fonts/caveat-700.woff2) format("woff2")}
 /* Handwriting margin notes (colleague excerpts) */
 .hand{margin:22px 0 0;max-width:36ch;padding-left:16px;border-left:3px solid var(--amber);transform:rotate(-1deg);transform-origin:left center}
-.hand p{margin:0;font-family:"Caveat","Bradley Hand","Segoe Print",cursive;font-size:1.85rem;line-height:1.2;color:var(--teal);font-weight:700}
+.hand p{margin:0;font-family:"Caveat","Bradley Hand","Segoe Print",cursive;font-size:1.85rem;line-height:1.2;color:var(--teal);font-weight:700;text-wrap:balance}
 .hand cite{display:block;margin-top:8px;font-family:var(--font);font-style:normal;font-size:.78rem;letter-spacing:.07em;text-transform:uppercase;color:var(--muted)}
 .on-dark .hand p{color:#F6D9A6}
 .on-dark .hand cite{color:rgba(255,255,255,.72)}
