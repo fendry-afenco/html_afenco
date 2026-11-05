@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en-US">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -31,11 +31,13 @@
   "@type": "ProfessionalService",
   "@id": "https://afen-co.com/#business",
   "name": "Afen",
+  "legalName": "Afen LLC",
   "url": "https://afen-co.com/",
   "logo": "https://afen-co.com/assets/img/afen-logo.svg",
   "image": "https://afen-co.com/assets/img/og-image.png",
   "description": "Boutique consultancy for technical marketing, Identity and Access Management (IAM) security, and agentic AI.",
   "telephone": "+1-415-483-5242",
+  "email": "info@afen-co.com",
   "founder": {
     "@type": "Person",
     "name": "Fendry Utama",
@@ -103,7 +105,11 @@
       {
         "@type": "Offer",
         "priceCurrency": "USD",
-        "price": "500",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "maxPrice": 500,
+          "priceCurrency": "USD"
+        },
         "itemOffered": {
           "@type": "Service",
           "name": "Technical Marketing Strategy Consultation"
@@ -112,7 +118,11 @@
       {
         "@type": "Offer",
         "priceCurrency": "USD",
-        "price": "2000",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "maxPrice": 2000,
+          "priceCurrency": "USD"
+        },
         "itemOffered": {
           "@type": "Service",
           "name": "Demo Strategy Review"
@@ -121,7 +131,11 @@
       {
         "@type": "Offer",
         "priceCurrency": "USD",
-        "price": "750",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "maxPrice": 750,
+          "priceCurrency": "USD"
+        },
         "itemOffered": {
           "@type": "Service",
           "name": "Identity & Access Management Consultation"
@@ -130,7 +144,11 @@
       {
         "@type": "Offer",
         "priceCurrency": "USD",
-        "price": "1000",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "maxPrice": 1000,
+          "priceCurrency": "USD"
+        },
         "itemOffered": {
           "@type": "Service",
           "name": "Agentic AI Consultation"
@@ -163,6 +181,7 @@
       <div class="hero-copy">
         <h1>Technical marketing, IAM, and agentic AI, made clear.</h1>
         <p class="hero-sub">Clear positioning, working demos, and practical AI — from a hands-on expert.</p>
+        <p class="hero-for">For founders and go-to-market leaders at technical B2B companies, and teams adopting AI.</p>
         <div class="hero-cta">
           <a class="btn" href="#book" data-book>Book an intro call</a>
         </div>
@@ -260,6 +279,7 @@
           <div><dt>Patent</dt><dd>US20190098118: repurposing DNS as a data transport for industrial IoT</dd></div>
           <div><dt>Education</dt><dd>B.S., Computer Science &amp; Information Systems, with Distinction, Murdoch University</dd></div>
         </dl>
+        <p class="recs-link"><a href="https://www.linkedin.com/in/fendryutama/" target="_blank" rel="noopener noreferrer" aria-label="Read colleague recommendations on LinkedIn (opens in a new tab)">Read colleague recommendations on LinkedIn<svg class="ext-icon" viewBox="0 0 16 16" width="16" height="16" aria-hidden="true" focusable="false"><path d="M9.5 2H14v4.5M14 2 7.5 8.5M12 9.5V13a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1h3.5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></a><span>LinkedIn may ask you to sign in to view them.</span></p>
       </div>
     </div>
   </section>
@@ -313,7 +333,7 @@
           <p><strong>Timeline:</strong> delivered within 4 weeks</p>
           <p><strong>Investment:</strong> up to 8 hours at $250/hour (up to $2,000)</p>
         </div>
-        <a class="btn" href="#contact" data-service="Demo Strategy Review">Enquire about the review</a>
+        <a class="btn" href="#contact" data-service="Demo Strategy Review">Inquire about the review</a>
       </div>
     </div>
   </section>
@@ -338,22 +358,22 @@
         <div class="bk">
           <div class="info"><h3>Technical Marketing Strategy Consultation</h3><p>Positioning and messaging, competitive analysis, product launches, and the technical content that supports them.</p></div>
           <div class="meta"><span class="price">Up to $500</span><span class="dur">Up to 2 hrs · $250/hr</span></div>
-          <a class="btn btn-ghost" href="#contact" data-service="Technical Marketing Strategy Consultation">Enquire</a>
+          <a class="btn btn-ghost" href="#contact" data-service="Technical Marketing Strategy Consultation">Inquire</a>
         </div>
         <div class="bk">
           <div class="info"><h3>Demo Strategy Review</h3><p>Focused 8-hour review of your product demos, ending in a roadmap.</p></div>
           <div class="meta"><span class="price">Up to $2,000</span><span class="dur">Up to 8 hrs · $250/hr</span></div>
-          <a class="btn btn-ghost" href="#contact" data-service="Demo Strategy Review">Enquire</a>
+          <a class="btn btn-ghost" href="#contact" data-service="Demo Strategy Review">Inquire</a>
         </div>
         <div class="bk">
           <div class="info"><h3>Identity &amp; Access Management Consultation</h3><p>Practical advice on the systems behind your business: tooling, identity and access policies, and a plan to secure them.</p></div>
           <div class="meta"><span class="price">Up to $750</span><span class="dur">Up to 3 hrs · $250/hr</span></div>
-          <a class="btn btn-ghost" href="#contact" data-service="Identity &amp; Access Management Consultation">Enquire</a>
+          <a class="btn btn-ghost" href="#contact" data-service="Identity &amp; Access Management Consultation">Inquire</a>
         </div>
         <div class="bk">
           <div class="info"><h3>Agentic AI Consultation</h3><p>Find the workflows where AI genuinely saves time, then design, prototype, and scope the first agent, using tools such as Claude Code.</p></div>
           <div class="meta"><span class="price">Up to $1,000</span><span class="dur">Up to 4 hrs · $250/hr</span></div>
-          <a class="btn btn-ghost" href="#contact" data-service="Agentic AI Consultation">Enquire</a>
+          <a class="btn btn-ghost" href="#contact" data-service="Agentic AI Consultation">Inquire</a>
         </div>
       </div>
       <p class="rate-note">Each package is a scoped bundle of up to the hours shown, billed at $250/hour for the time actually used. You will never be billed above the bundle without your written approval. Every package includes the agreed deliverables and a readout session. Work beyond the bundle is quoted and agreed before it starts. Larger or ongoing work is quoted separately.</p>
@@ -369,16 +389,20 @@
         <address class="addr">
           <strong>Afen LLC</strong>
           <span>Riverside, California, USA</span>
+          <a href="mailto:info@afen-co.com">info@afen-co.com</a>
           <a href="tel:+14154835242">+1.415.483.5242</a>
           <a href="https://www.linkedin.com/in/fendryutama/" rel="noopener">LinkedIn</a>
         </address>
       </div>
-      <form id="contact-form" method="post" novalidate>
-        <div class="field"><label for="name">Name</label><input type="text" id="name" name="name" autocomplete="name"></div>
-        <div class="field"><label for="email">Email (required)</label><input type="email" id="email" name="email" autocomplete="email" required aria-describedby="status"></div>
+      <form id="contact-form" method="post" action="https://formspree.io/f/mqppnyye" novalidate>
+        <p class="req-key" aria-hidden="true"><span class="req">*</span> Required</p>
+        <div class="field"><label for="name">Name <span class="req" aria-hidden="true">*</span></label><input type="text" id="name" name="name" autocomplete="name" required aria-required="true" aria-describedby="status"></div>
+        <div class="field"><label for="title">Job title <span class="req" aria-hidden="true">*</span></label><input type="text" id="title" name="title" autocomplete="organization-title" required aria-required="true" aria-describedby="status"></div>
+        <div class="field"><label for="company">Company name <span class="req" aria-hidden="true">*</span></label><input type="text" id="company" name="company" autocomplete="organization" required aria-required="true" aria-describedby="status"></div>
+        <div class="field"><label for="email">Email <span class="req" aria-hidden="true">*</span></label><input type="email" id="email" name="email" autocomplete="email" required aria-describedby="status"></div>
         <div class="field"><label for="message">Message</label><textarea id="message" name="message"></textarea></div>
         <div class="hp" aria-hidden="true"><label>Leave blank<input type="text" name="_gotcha" tabindex="-1" autocomplete="off"></label></div>
-        <label class="check"><input type="checkbox" name="updates" value="yes"><span>Send me occasional technical marketing and IAM insights.</span></label>
+        <label class="check"><input type="checkbox" name="updates" value="yes"><span>Send me occasional technical marketing and IAM insights by email. Unsubscribe any time.</span></label>
         <div class="form-foot">
           <button class="btn" type="submit">Send message</button>
           <p class="note">I use your details only to reply to you and never sell them. <a href="privacy.html">Privacy Policy</a></p>
@@ -393,7 +417,7 @@
   <div class="wrap foot">
     <a href="index.html" aria-label="Afen, home"><img class="logo" src="assets/img/afen-logo.svg" width="582" height="212" alt="Afen"></a>
     <div class="foot-r">
-      <div class="foot-links"><a href="privacy.html">Privacy Policy</a><a href="terms.html">Terms of Service</a></div>
+      <div class="foot-links"><a href="privacy.html">Privacy Policy</a><a href="terms.html">Terms of Service</a><a href="unsubscribe.html">Unsubscribe</a></div>
       <p>Copyright © 2026 Afen LLC. All rights reserved.</p>
       <p class="disclaimer">Afen is an independent consultancy and is not affiliated with, endorsed by, or sponsored by Okta, Cisco, Akamai, or any other company or product named on this site. All trademarks belong to their respective owners.</p>
     </div>
@@ -401,8 +425,6 @@
 </footer>
 
 <script src="assets/script/main.js" defer></script>
-<!-- Optional private analytics (Cloudflare Web Analytics): replace YOUR_TOKEN, then remove the comment markers.
-<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "YOUR_TOKEN"}'></script>
--->
+<!-- Cloudflare Web Analytics --><script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "541183a854de488abe9fb911af0f7c6b"}'></script><!-- End Cloudflare Web Analytics -->
 </body>
 </html>

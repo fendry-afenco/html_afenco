@@ -225,3 +225,18 @@ footer{background:#000;color:rgba(255,255,255,.82);padding-block:44px}
 .on-dark .hand cite{color:rgba(255,255,255,.72)}
 .timeline .hand{margin-top:14px}
 @media (max-width:700px){.hand{transform:none;max-width:none}}
+
+/* Unsubscribe page form width */
+.legal form{max-width:520px;margin-top:24px}
+
+/* Required-field marker */
+.req{color:#B3261E;font-weight:600;margin-left:2px}
+.req-key{margin:0;font-size:.9rem;color:var(--muted)}
+
+/* Link to colleague recommendations on LinkedIn */
+.recs-link{margin-top:18px;font-weight:500}
+.recs-link a{text-underline-offset:4px}
+.recs-link span{display:block;margin-top:4px;font-weight:400;font-size:.9rem;color:var(--muted)}
+
+/* Hero audience line */
+.hero-for{margin-top:14px;font-size:1.05rem;color:var(--muted);max-width:44ch}
