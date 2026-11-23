@@ -245,3 +245,16 @@ footer{background:#000;color:rgba(255,255,255,.82);padding-block:44px}
 .sent-list dd{margin:0;overflow-wrap:anywhere}
 #sent .note{margin-top:18px}
 #sent .note a{white-space:nowrap}
+
+/* Custom ERP landing page */
+.cerp-hero{padding-block:clamp(48px,7vw,96px) clamp(32px,5vw,64px)}
+.cerp-hero h1{font-size:clamp(2.1rem,4.4vw,3.4rem);font-weight:600;line-height:1.08;letter-spacing:-.022em;max-width:20ch}
+.cerp-hero .lead{margin-top:22px;font-size:clamp(1.1rem,1.8vw,1.35rem);font-weight:300;line-height:1.55;color:#3A525B;max-width:46ch}
+.cerp-hero .hero-cta{margin-top:30px}
+.cerp-sec h2{max-width:26ch}
+.pains{margin:28px 0 0;padding:0;list-style:none;display:grid;gap:14px;max-width:62ch}
+.pains li{position:relative;padding-left:26px;font-size:1.1rem}
+.pains li::before{content:"";position:absolute;left:0;top:.6em;width:10px;height:10px;background:var(--amber)}
+.cerp-steps{margin-top:28px}
+.cerp-fit{margin:8px 0 16px;font-size:1.2rem;font-weight:600}
+.cerp-note{margin-top:28px;max-width:68ch;font-size:.95rem;color:var(--muted)}
